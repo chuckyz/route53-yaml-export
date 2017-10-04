@@ -1,0 +1,4 @@
+---
+- debug:
+    msg: "{{ item }}"
+  with_items: "{{ zones.value }}"
